@@ -1,0 +1,16 @@
+.photo-register-card {
+  $card-height: 240px;
+
+  cursor: pointer;
+
+  &__img-wrapper {
+    display: flex;
+    height: $card-height;
+  }
+
+  img {
+    max-height: $card-height;
+    object-fit: contain;
+    width: 100%;
+  }
+}

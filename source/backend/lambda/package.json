@@ -1,0 +1,38 @@
+{
+  "name": "lambda-functions",
+  "version": "0.1.0",
+  "scripts": {
+    "cleanup": "tsc --build ./ --clean && rm -rf node_modules && rm -f package-lock.json",
+    "pretest": "npm install",
+    "clean": "npm run cleanup:dist && npm run cleanup:dependencies",
+    "cleanup:dependencies": "rm -rf node_modules",
+    "cleanup:dist": "rm -rf dist",
+    "test": "jest --coverage",
+    "build:init": "rm -rf package-lock.json && rm -rf dist && rm -rf node_modules",
+    "build:zip": "rm -rf package-lock.json && zip -rq --exclude=*tests* --exclude=*template.yml example-function-js.zip .",
+    "build:dist": "mkdir dist && mv example-function-js.zip dist/",
+    "build": "npm run build:init && npm install --production && npm run build:zip && npm run build:dist",
+    "local:test": "sam local invoke 'ExampleService' -e ./tests/event.json"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.72",
+    "@types/jest": "^25.2.1",
+    "@types/mime-types": "^2.1.0",
+    "@types/unzipper": "^0.10.3",
+    "@types/sharp": "^0.27.3",
+    "jest": "^27.3.1",
+    "typescript": "^4.2.3",
+    "ts-jest": "^27.0.7"
+  },
+  "dependencies": {
+    "@aws-cdk/custom-resources": "1.117.0",
+    "@aws-cdk/assert": "1.117.0",
+    "@elastic/elasticsearch": "7.13.0",
+    "aws-elasticsearch-connector": "^9.0.3",
+    "aws-sdk": "^2.876.0",
+    "mime-types": "^2.1.30",
+    "ulid": "^2.3.0",
+    "sharp": "^0.28.0",
+    "unzipper": "^0.10.11"
+  }
+}

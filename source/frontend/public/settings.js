@@ -1,0 +1,6 @@
+window.env = {
+  AWS_REGION: '',
+  APP_API_ID: '',
+  BACKEND_DISTRIBUTION_DOMAIN_NAME: '',
+  IDENTITY_POOL_ID: '',
+};

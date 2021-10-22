@@ -1,0 +1,17 @@
+.face-card {
+  $card-height: 240px;
+
+  position: relative;
+  width: fit-content;
+
+  &__rect {
+    border: 1px solid red;
+    position: absolute;
+  }
+
+  img {
+    max-height: $card-height;
+    object-fit: contain;
+    width: 100%;
+  }
+}

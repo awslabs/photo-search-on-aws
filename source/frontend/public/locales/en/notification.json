@@ -1,0 +1,8 @@
+{
+  "failedToGetRegisteredPhotos": "Failed to get registered photos",
+  "failedToUpdatePhoto": "Failed to update photo",
+  "failedToUploadPhoto": "Failed to upload photo(s)",
+  "failedToSearchByInput": "Failed to search by input",
+  "failedToDetectFaces": "Failed to detect faces",
+  "failedToGetSimilarPhotos": "Failed to get similar photos"
+}
