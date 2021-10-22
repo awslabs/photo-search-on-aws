@@ -1,0 +1,28 @@
+.header {
+  background-color: #232f3e;
+  height: 62px;
+  left: 0;
+  padding: 0 1em;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+
+  &__right {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    margin-right: 14px;
+
+    &__lang-select {
+      max-width: 160px;
+      width: 100%;
+    }
+  }
+
+  img {
+    height: 2.5em;
+    position: relative;
+  }
+}

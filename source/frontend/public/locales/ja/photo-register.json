@@ -1,0 +1,16 @@
+{
+  "addPhoto": "写真を追加",
+  "title": "写真タグ管理",
+  "closeModal": "閉じる",
+  "uploadFiles": "写真をアップロードする",
+  "descriptionForUploading": "アップロードして、検索対象に加えます",
+  "choosePhoto": "写真を選ぶ",
+  "uploadedFiles": "アップロードされるファイル",
+  "lastDateModified": "最終更新日",
+  "tags": "タグ",
+  "whosePhotosAreYouUploading": "これからアップロードする写真に写っている人物名を入力してください",
+  "name": "名前",
+  "youCanUploadPhotoAfterInputThisField": "人物名入力後に写真のアップロードが可能になります",
+  "addTag": "追加",
+  "save": "保存"
+}

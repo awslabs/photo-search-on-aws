@@ -1,0 +1,13 @@
+{
+  "search": "Search",
+  "upload": "Upload",
+  "resultsShownHere": "Results are shown here",
+  "uploadOrTypeName": "Upload an image or type a name and hit 'Search'",
+  "getSimilarImages": "Get similar images",
+  "noFaces": "No faces in the photo",
+  "pleaseTryOtherPhoto": "Try the other photo",
+  "noHitSimilarPhoto": "No similar photos",
+  "pleaseTryOtherFace": "Try the other face",
+  "noHitName": "No photo for the name",
+  "pleaseTryOtherName": "Try the other name"
+}

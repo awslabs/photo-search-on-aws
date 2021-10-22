@@ -1,0 +1,8 @@
+{
+  "failedToGetRegisteredPhotos": "登録画像の取得に失敗しました",
+  "failedToUpdatePhoto": "写真の更新に失敗しました",
+  "failedToUploadPhoto": "写真のアップロードに失敗しました",
+  "failedToSearchByInput": "入力内容での検索に失敗しました",
+  "failedToDetectFaces": "顔の検出に失敗しました",
+  "failedToGetSimilarPhotos": "類似画像の取得に失敗しました"
+}

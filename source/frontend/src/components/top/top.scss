@@ -1,0 +1,16 @@
+@use '@awsui/design-tokens/index.scss' as awsui;
+
+.top {
+  &__header {
+    background-color: #232f3e;
+  }
+
+  &__title {
+    color: awsui.$color-text-home-header-default;
+  }
+
+  &__category,
+  &__description {
+    color: awsui.$color-text-home-header-secondary;
+  }
+}

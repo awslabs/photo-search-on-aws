@@ -1,0 +1,16 @@
+{
+  "addPhoto": "Add Photos",
+  "title": "Tag Management",
+  "closeModal": "Close",
+  "uploadFiles": "Upload photo(s)",
+  "descriptionForUploading": "Upload photos to search",
+  "choosePhoto": "Choose photo",
+  "uploadedFiles": "Uploaded file(s)",
+  "lastDateModified": "Last date modified",
+  "tags": "Tags",
+  "whosePhotosAreYouUploading": "Whose photos are you uploading?",
+  "name": "Name",
+  "youCanUploadPhotoAfterInputThisField": "You can upload the photos after input this field",
+  "addTag": "Add",
+  "save": "Save"
+}

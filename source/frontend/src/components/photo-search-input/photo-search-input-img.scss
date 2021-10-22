@@ -1,0 +1,15 @@
+.photo-search-input-img {
+  max-height: 120px;
+  position: relative;
+  width: fit-content;
+
+  img {
+    max-height: 120px;
+    width: auto;
+  }
+
+  &__rect {
+    border: 1px solid red;
+    position: absolute;
+  }
+}

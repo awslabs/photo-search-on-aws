@@ -1,0 +1,13 @@
+{
+  "search": "検索",
+  "upload": "画像をアップロード",
+  "resultsShownHere": "結果がここに表示されます",
+  "uploadOrTypeName": "検索したい画像をアップロードするか、被写体の名前を入力して検索ボタンをクリックしてください",
+  "getSimilarImages": "似た画像を探す",
+  "noFaces": "顔を検出できませんでした",
+  "pleaseTryOtherPhoto": "別の画像をアップロードしてください",
+  "noHitSimilarPhoto": "似た画像はありませんでした",
+  "pleaseTryOtherFace": "別の顔を選択してください",
+  "noHitName": "関連する画像はありませんでした",
+  "pleaseTryOtherName": "別の名前を入力してください"
+}
