@@ -51,7 +51,7 @@
     "@aws-solutions-constructs/core": "1.97.0",
     "@elastic/elasticsearch": "7.13.0",
     "aws-sdk": "^2.877.0",
-    "sharp": "^0.28.0",
+    "sharp": "^0.30.5",
     "source-map-support": "^0.5.16",
     "ulid": "^2.3.0"
   }
